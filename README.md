@@ -41,6 +41,17 @@ You can check the app by clickng user1,user2 buttons
 ## Others
 https://wave.h2o.ai/docs/getting-started
 
+My requirement is to list any AWS resource by a user, There are few methods to do that and I have listed down some of them here;
+
+1. Use AWS billing console to identify the AWS services that you are using. Chances is that you would see services you are “not” supposed to be in use. Of course, I think it      would require lot of efforts to identify the specific instances of cloud resources which are not in active use this way. E.g. A Security group/VPC lying idle in a corner       waiting to be exploited.
+2. AWS Tag Editor — Tag everything that is needed and use tag editor to search for all the resources that does not have this tag. I would say, first thing you wouldn’t end up     looking for tool here if your were already disciplined. In my opinion you will always have something untagged or uncontrolled. That nagging feeling in your head that           something is amiss!
+3. AWS Config — I’m bit skeptical about this service, specially from pricing perspective. Also it seems the coverage is bit limited, approx 90 Cloud resources across 32 AWS       service.
+4. https://vantage.sh — a new paid tool which would help to view cloud resources per your requirements (based on tags, or some other conditions )— I don’t know what kind of       conditions does it support or how many resources/AWS Services? No details on their page. I shall update once I try them.
+5. https://www.fugue.co — an absolutely brillient service when it comes for visualization. In one screen you get to see everything needed. I have tried the trial and I’m          overwhelmed. But again what falls short is AWS Services and resource type coverage. Some of you may have already used their open source tool https://github.com/fugue/regula    for terraform checks.
+
+As my second attempt was to list all AWS resources by user not only the most populer services. Then I first try to add all the resources as an array an try to list the AWS resources for perticular IAM user. Then I tried using the AWS Cloud Control API and I was able to list down all the resources created by AWS but not specific for a perticular user.I am still working on it.
+Thank you!!!
+
 
 
 

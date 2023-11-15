@@ -13,6 +13,35 @@ Here I made 3 free AWS accounts and assigned a IAM user for each account as user
 ## 1. Clone the repository:
 https://github.com/ManukaDalpe/list_AWS_resources
 
+## 2. Create a virtual environment:
+python -m venv venv
+
+## 3. Activate the virtual environment:
+
+source venv/bin/activate
+
+### windows
+venv/Scripts/activate.bat
+
+To deactivate the virtual environment use deactivate command.
+
+## 4. Install dependencies:
+(venv) pip3 install -r requirements.txt
+
+## 5. Run the app:
+(venv) wave run app
+
+## 6. View the app:
+Point your favourite web browser to
+http://localhost:10101/meetup
+
+## 7. Check the app:
+You can check the app by clickng user1,user2 buttons
+
+## Others
+https://wave.h2o.ai/docs/getting-started
+
+
 
 
 

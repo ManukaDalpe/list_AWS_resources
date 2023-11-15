@@ -49,7 +49,7 @@ My requirement is to list any AWS resource by a user, There are few methods to d
 4. https://vantage.sh — a new paid tool which would help to view cloud resources per your requirements (based on tags, or some other conditions )— I don’t know what kind of       conditions does it support or how many resources/AWS Services? No details on their page. I shall update once I try them.
 5. https://www.fugue.co — an absolutely brillient service when it comes for visualization. In one screen you get to see everything needed. I have tried the trial and I’m          overwhelmed. But again what falls short is AWS Services and resource type coverage. Some of you may have already used their open source tool https://github.com/fugue/regula    for terraform checks.
 
-As my second attempt was to list all AWS resources by user not only the most populer services. Then I first try to add all the resources as an array an try to list the AWS resources for perticular IAM user. Then I tried using the AWS Cloud Control API and I was able to list down all the resources created by AWS but not specific for a perticular user.I am still working on it.
+As my second attempt was to write a python function for listing all AWS resources by user not only the most populer services. Then I first tried to add all the resources as an array and tried to list the AWS resources for perticular IAM user. Then I tried using the AWS Cloud Control API and I was able to list down all the resources created by AWS but not specific for a perticular user.I am still working on it.
 Thank you!!!
 
 

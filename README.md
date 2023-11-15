@@ -11,6 +11,7 @@ Here I made 3 free AWS accounts and assigned a IAM user for each account as user
 2. pip
 
 ## 1. Clone the repository:
+https://github.com/ManukaDalpe/list_AWS_resources
 
 
 

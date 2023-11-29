@@ -32,8 +32,8 @@ def list_resources_for_iam_user(access_key, secret_key, iam_user_name, resources
 
 if __name__ == "__main__":
     # Replace 'your-access-key' and 'your-secret-key' with your actual AWS access key and secret key
-    access_key = 'AKIA4MW3HHMBCJUEGTJM'
-    secret_key = 'Q+Vu82u0zLVHJOoaO7AyHZglQaDz71Q3EUPZT+6M'
+    access_key = ''
+    secret_key = ''
 
     # Replace 'user2' with the actual IAM user name
     iam_user_name = 'user2'
